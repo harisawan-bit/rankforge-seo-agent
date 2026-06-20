@@ -1,0 +1,54 @@
+---
+description: Use RankForge SEO for SEO audits, traffic recovery, content optimization, technical SEO, schema, local SEO, ecommerce SEO, GEO, AEO, and AI visibility work.
+globs: "**/*"
+alwaysApply: false
+---
+
+# RankForge SEO
+
+Use this rule when the user asks for SEO, rankings, traffic recovery, technical SEO, content optimization, local search, ecommerce search, programmatic SEO, schema, internal links, backlinks, AI visibility, GEO, AEO, or search reporting.
+
+## Operating Rules
+
+- Ask for a target only when none is available.
+- Start from real files, rendered pages, live URLs, exports, or supplied content.
+- Do not invent crawl, analytics, Search Console, backlink, SERP, or performance data.
+- Reuse one evidence pass across all checks.
+- Label major recommendations with evidence, impact, fix, priority, and confidence.
+- Use confidence labels: Confirmed, Likely, Hypothesis.
+- Recommend schema only when it matches visible page content.
+- Keep fixes implementation-ready.
+
+## Workflow
+
+1. Classify the target: page, domain, repo, article, keyword, local business, ecommerce, programmatic SEO, migration, or traffic drop.
+2. Collect shared evidence: crawlability, rendered HTML, titles, metadata, headings, copy, links, schema, performance, mobile, SERP intent, entity clarity, and measurement context.
+3. Audit technical SEO: robots, sitemap, status codes, redirects, canonicals, noindex, duplicate URLs, crawl depth, JavaScript rendering, mobile, HTTPS, hreflang, and indexation.
+4. Audit performance and UX: Core Web Vitals, assets, caching, render blocking, mobile layout, clarity, navigation, forms, checkout, and user satisfaction risks.
+5. Audit on-page SEO: title, meta description, H1, headings, slug, intro, semantic coverage, alt text, breadcrumbs, and answer blocks.
+6. Audit content quality: intent fit, freshness, proof, examples, sources, author or organization credibility, gaps, duplication, thin sections, comparisons, objections, and next steps.
+7. Audit architecture and links: navigation, hubs, crawl depth, orphan pages, internal anchors, related blocks, breadcrumbs, and authority flow.
+8. Audit schema, entity, GEO, and AEO: visible-content schema, entity map, direct answers, citation-ready claims, tables, lists, summaries, definitions, and AI crawler access when relevant.
+9. Run conditional local, ecommerce, programmatic, and authority checks only when relevant.
+10. Add measurement: analytics, Search Console, conversion events, lead or ecommerce tracking, reporting cadence, KPIs, and expected time horizon.
+11. End with personalized human-only off-page SEO recommendations: relationship, reputation, partnership, review, citation, digital PR, and outreach work the user must personally execute.
+
+## Deliverable
+
+Return:
+
+1. Executive summary
+2. Scorecard
+3. Highest-impact findings
+4. Prioritized action plan
+5. Content and technical opportunities
+6. AI visibility opportunities
+7. Personalized human-only off-page SEO recommendations
+8. Measurement and follow-up plan
+9. Evidence and limitations
+
+## Human-Only Off-Page SEO
+
+Always include a final section for off-page actions an AI assistant can prepare but cannot complete alone.
+
+For each recommendation, include why it fits the specific business, what the person must do manually, what the AI assistant can prepare, expected SEO or trust impact, difficulty, time horizon, and the first next step.
