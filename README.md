@@ -1,5 +1,7 @@
 # RankForge SEO
 
+[![CI](https://github.com/harisawan-bit/rankforge-seo-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/harisawan-bit/rankforge-seo-agent/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 RankForge SEO is a standalone AI workflow for search growth work across technical SEO, content quality, internal linking, schema, local SEO, ecommerce SEO, AI visibility, and reporting.
 
 It is designed to be dropped into Claude, Codex, Antigravity, or Cursor so the assistant has one consistent SEO operating system.
@@ -112,20 +114,29 @@ Then ask Cursor:
 Use the RankForge SEO rule to review this page and propose fixes.
 ```
 
-## GitHub Desktop Publishing
+## Publish / Contribute
 
-1. Open GitHub Desktop.
-2. Select `File` -> `Add local repository`.
-3. Choose this folder:
+This repo is already a git repository, so publishing changes is just a normal push:
 
-```text
-C:\Users\haris\Documents\Codex\2026-06-20\where-is-my-master-seo-skill\outputs\rankforge-seo-agent
+```bash
+# from the repo root
+git add -A
+git commit -m "Describe your change"
+git push origin feat/your-branch
+# then open a pull request (see CONTRIBUTING.md)
+gh pr create --fill
 ```
 
-4. Commit all files.
-5. Click `Publish repository`.
-6. Choose public or private visibility.
-7. Publish.
+To publish a fresh fork from scratch instead:
+
+```bash
+# create the GitHub repo (public or private) from this folder
+gh repo create harisawan-bit/rankforge-seo-agent --public --source=. --remote=origin
+git push -u origin main
+```
+
+For local tool setup, copy the relevant skill folder into your tool's config directory:
+`.claude/skills/`, `.agents/skills/`, or `.cursor/rules/`.
 
 ## Validation
 
